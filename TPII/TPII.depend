@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1556844368 source:/home/alumno/Descargas/ProgLab2C-master/TPII/utn.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"utn.h"
+
+1556844368 /home/alumno/Descargas/ProgLab2C-master/TPII/utn.h
+
+1557446369 source:/home/alumno/Descargas/ProgLab2C-master/TPII/main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"utn.h"
+	"ArrayEmployees.h"
+
+1557446369 /home/alumno/Descargas/ProgLab2C-master/TPII/ArrayEmployees.h
+
+1557447808 source:/home/alumno/Descargas/ProgLab2C-master/TPII/ArrayEmployees.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"utn.h"
+	"ArrayEmployees.h"
+
