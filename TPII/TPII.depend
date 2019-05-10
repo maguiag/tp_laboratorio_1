@@ -26,3 +26,30 @@
 	"utn.h"
 	"ArrayEmployees.h"
 
+1557448887 source:c:\users\user\documents\2019\tp_laboratorio_1-master\tpii\arrayemployees.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"utn.h"
+	"ArrayEmployees.h"
+
+1557448887 c:\users\user\documents\2019\tp_laboratorio_1-master\tpii\utn.h
+
+1557457761 c:\users\user\documents\2019\tp_laboratorio_1-master\tpii\arrayemployees.h
+
+1557457544 source:c:\users\user\documents\2019\tp_laboratorio_1-master\tpii\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"utn.h"
+	"ArrayEmployees.h"
+
+1557448887 source:c:\users\user\documents\2019\tp_laboratorio_1-master\tpii\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"utn.h"
+

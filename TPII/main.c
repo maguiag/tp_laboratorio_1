@@ -9,20 +9,20 @@
 //int menu(int *opcion);
 int main()
 {
+    Employee employees[QTY];
+    int opcion=0;
+    char auxName[51];
+    char auxlastName[51];
+    float auxSalary;
+    int auxSector;
+    int auxId;
+    float total;
+    float promedio;
+    int masQPromedio
+    int opcionInforme=0;
+    char seguir='s';
 
-Employee employees[QTY];
-int opcion=0;
-char auxName[51];
-char auxlastName[51];
-float auxSalary;
-int auxSector;
-int auxId;
-float total;
-float promedio;
-int masQPromedio;
-char seguir='s';
-
-initEmployees(employees,QTY);
+    initEmployees(employees,QTY);
  do
      {
         system("clear");
@@ -30,10 +30,10 @@ initEmployees(employees,QTY);
         printf("1- ALTA de un Empleado\n");
         printf("2- MODIFICACION de un Empleado\n");
         printf("3- BAJA de un Empleado\n");
-        printf("4- INFORMES: 1) Orden 2) Salario\n");
+        printf("4- INFORMES by Orden,  Salario\n");
         printf("5- SALIR\n");
         scanf("%d",&opcion);
-         switch(opcion)
+        switch(opcion)
          {
              case 1:
                 addEmployee(employees,QTY,auxId,auxName,auxlastName,auxSalary,auxSector);
@@ -48,9 +48,20 @@ initEmployees(employees,QTY);
                 removeEmployee(employees,QTY,auxId);
              break;
              case 4:
-                sortEmployees(employees,QTY,0);
-                promedioSalarios(employees,QTY);
-             break;
+                 system(clear);
+                 scanf("%d",&opcionInforme);
+                 switch(opcionInforme)
+                 {
+                    case 1:
+                        sortEmployees(employees,QTY,0);
+                        printEmployees(employees,QTY);
+                    break;
+                    case  2:
+                        promedioSalarios(employees,QTY);
+                    break;
+                    default:
+                    break;
+                 }
             case 5:
                 seguir='n';
             break;
