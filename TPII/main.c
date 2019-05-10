@@ -30,7 +30,7 @@ int main()
         printf("1- ALTA de un Empleado\n");
         printf("2- MODIFICACION de un Empleado\n");
         printf("3- BAJA de un Empleado\n");
-        printf("4- INFORMES by Orden,  Salario\n");
+        printf("4- INFORMES\n");
         printf("5- SALIR\n");
         scanf("%d",&opcion);
         switch(opcion)
@@ -49,6 +49,7 @@ int main()
              break;
              case 4:
                  system(clear);
+                 printf("1- Orden 2- Salarios");
                  scanf("%d",&opcionInforme);
                  switch(opcionInforme)
                  {
