@@ -36,16 +36,16 @@ int main()
      "9. Guardar los datos de los empleados en el archivo data.csv (modo binario).\n"
     "10. Salir\n");
 
-    utn_getEntero(&option,2,"\nIngrese Opcion  ", "\nError\n",1,10);
+    utn_getEntero(&option,2,"\nIngrese Opcion  \n", "\nError\n",1,10);
         switch(option)
         {
             case 1:
                 controller_loadFromText("data.csv",listaEmpleados);
-                printf("Carga exitosa. \n");
+                printf("\nCarga exitosa. \n");
                 break;
             case 2:
                 controller_loadFromBinary("data.bin",listaEmpleados);
-                printf("Carga exitosa. \n");
+                printf("\nCarga exitosa. \n");
                 break;
             case 3:
                 controller_addEmployee(listaEmpleados);
@@ -61,6 +61,7 @@ int main()
                 break;
             case 7:
                 controller_sortEmployee(listaEmpleados);
+                controller_ListEmployee(listaEmpleados);
                 break;
             case 8:
                 controller_saveAsText("output.csv",listaEmpleados);
