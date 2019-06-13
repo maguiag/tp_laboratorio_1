@@ -404,5 +404,4 @@ int isCuit(char* pBuffer)
 }
 
 
-}
-*/
+
