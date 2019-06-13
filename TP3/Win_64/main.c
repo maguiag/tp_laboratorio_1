@@ -36,7 +36,7 @@ int main()
      "9. Guardar los datos de los empleados en el archivo data.csv (modo binario).\n"
     "10. Salir\n");
 
-    utn_getEntero(&option,2,"\nIngrese Opcion:  ", "\nError\n",1,10);
+    utn_getEntero(&option,2,"\nIngrese Opcion  ", "\nError\n",1,10);
         switch(option)
         {
             case 1:

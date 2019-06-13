@@ -202,7 +202,7 @@ int controller_ListEmployee(LinkedList* pArrayListEmployee)
             employee_getHorasTrabajadas(pEmployee,&auxHorasTrabajadas);
             employee_getSueldo(pEmployee,&auxSueldo);
 
-            printf("id: %d Nombre: %s Horas: %d Sueldo: %d\n ",auxId,
+            printf("id: %d -Nombre: %s  -Horas: %d  -Sueldo: %d\n ",auxId,
                                                                 auxNombre,
                                                                 auxHorasTrabajadas,
                                                                 auxSueldo);
